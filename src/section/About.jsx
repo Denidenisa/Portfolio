@@ -2,6 +2,7 @@ import {useRef}from'react'
 import { Globe } from "../components/globe";
 import Card from "../components/Card";
 import CopyEmailButton from '../components/CopyEmailButton';
+import {Frameworks} from "../components/Frameworks.jsx";
 const About = () => {
    const grid2Container=useRef()
   return (
@@ -139,7 +140,18 @@ const About = () => {
             </div>
 
         {/* Grid 5 */}
-        <div className="grid-default-color grid-5" />
+       <div className="grid-default-color grid-5">
+          <div className="z-10 w-[50%]">
+            <div>
+                <p classNamr="headtext"> Mes constellations de code </p>
+                <p className="subtext">Les outils avec lesquels je fais briller mes projets.</p>
+            </div>
+            
+          </div>
+          <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
+            <Frameworks />
+          </div>
+        </div>
       </div>
     </section>
   );
