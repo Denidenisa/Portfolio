@@ -116,7 +116,13 @@ const About = () => {
               image="assets/logos/MongoDb.png"
                containerRef={grid2Container}
               
+            /><Card
+              style={{ rotate: "-56deg", top: "5%", left: "90%" }}
+              image="assets/logos/unity.svg"
+               containerRef={grid2Container}
+              
             />
+            
             
                 </div> </div>
 
@@ -143,7 +149,7 @@ const About = () => {
        <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
             <div>
-                <p classNamr="headtext"> Mes constellations de code </p>
+                <p className="headtext"> Mes constellations de code </p>
                 <p className="subtext">Les outils avec lesquels je fais briller mes projets.</p>
             </div>
             

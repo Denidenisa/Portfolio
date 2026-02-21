@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './section/Navbar'
 import Hero from './section/Hero'
 import About from "./section/About"
+import Projects from './section/projects'
 
 
 const App=()=>{
@@ -13,12 +14,13 @@ const App=()=>{
        <Navbar /> 
      <Hero />
     <About/>
+    <Projects/>
      <section className="min-h-screen"/>
      <section className="min-h-screen"/>
      <section className="min-h-screen"/>
      <section className="min-h-screen"/>
      
-      { /*<Projects />*/ }
+    
       { /*<Experiences />*/ }
       { /*<Testimonial />*/ }
       { /*<Contact />*/ }
