@@ -6,7 +6,7 @@ import {Frameworks} from "../components/Frameworks.jsx";
 const About = () => {
    const grid2Container=useRef()
   return (
-    <section className="c-space section-spacing" id="about">
+    <section   className="c-space section-spacing" id="about">
       <h2 className="text-heading">L 'Âme du Voyageur</h2>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
