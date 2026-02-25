@@ -129,24 +129,7 @@
     ],
   },
 ];
-
-export const mySocials = [
-  {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
-  {
-    name: "Linkedin",
-    href: "",
-    icon: "/assets/socials/linkedIn.svg",
-  },
-  {
-    name: "GitHub",
-    href: "https://github.com/Denidenisa",
-    icon: "/assets/socials/github.svg",
-  },
-];
+;
 
 export const experiences = [
   {
@@ -160,16 +143,48 @@ export const experiences = [
       "Utilisation d'outils professionnels : GitHub, Insomnia.",
     ],
   },
-  {
+   {
     title: "Serveuse & Accueil",
     job: "Restaurant – Hôtel EuroStar Montgomery",
-    date: "Bruxelles",
+    date: "2024-2025",
     contents: [
       "Accueil et service d'une clientèle internationale haut de gamme.",
       "Développement du sens du service, de l'organisation et de la rigueur.",
       "Travail en équipe dans un environnement exigeant et multiculturel.",
     ],
   },
+  {
+  date: "2023 - 2025",
+  title: "Université Saint-Louis — UCL",
+  job: "Bachelier en Information et Communication",
+  contents: [
+    "Étude des sciences de l'information et la communication.",
+    "Travaux de groupe réguliers qui ont renforcé mes capacités de collaboration, de communication et de gestion de projet en équipe.",
+    "Une formation qui complète mon profil technique en m'apprenant à penser l'impact humain et social derrière chaque projet digital.",
+  ],
+},
+ 
+   
+ {
+  date: "2022 - 2023",
+  title: "Haute École / Institut ...",
+  job: "Bachelier en Gestion d'Entreprise — 1ère année",
+  contents: [
+    "Découverte du monde du management et du marketing, des notions qui enrichissent aujourd'hui ma vision dans le développement de produits et d'interfaces.",
+    
+  ],
+},
+{
+    title: "Secondaire",
+    job: "Institut de Nôtre-Dame",
+    date: "2016-2022",
+    contents: [
+      "Orientation Sciences (3e-4e) : approfondissement en chimie, biologie et physique, développant une rigueur analytique et une méthode de résolution de problèmes.",
+    "Orientation Langues (5e-6e) : maîtrise de l'espagnol et de l'anglais en plus du français, avec un accent sur la communication écrite et orale.",
+    "Ces années m'ont forgé une double culture scientifique et linguistique, des atouts que je retrouve aujourd'hui dans mon approche du développement.",,
+    ],
+  },
+
 ];
 
 export const reviews = [
@@ -187,3 +202,17 @@ export const reviews = [
   },
   
 ];
+
+export const mySocials = [
+ 
+  {
+    name: "Linkedin",
+    href: "",
+    icon: "/assets/socials/linkedIn.svg",
+  },
+  {
+    name: "GitHub",
+    href: "https://github.com/Denidenisa",
+    icon: "/assets/socials/github.svg",
+  },
+]
