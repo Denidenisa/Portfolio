@@ -146,7 +146,7 @@ const About = () => {
             </div>
 
         {/* Grid 5 */}
-       <div className="grid-default-color grid-5">
+        <div className="grid-constellation-color grid-5">
           <div className="z-10 w-[50%]">
             <div>
                 <p className="headtext"> Mes constellations de code </p>
