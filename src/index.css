@@ -10,11 +10,11 @@
   --color-mint: #57db96;
   --color-fuchsia: #ca2f8c;
   --color-orange: #cc6033;
-  --color-sand: #d6995c;
+  --color-sand: #f698ec;
   --color-coral: #ea4884;
   --animate-orbit: orbit 50s linear infinite;
-  --color-royal: #c9a96e;     
---color-lavender: #e8d5b0; 
+  --color-royal:   #f0c9ef;   
+--color-lavender: #f698ec; 
 --color-dusk: #2a1f3d;      
 --color-twilight: #1a1628;   
   @keyframes orbit {
