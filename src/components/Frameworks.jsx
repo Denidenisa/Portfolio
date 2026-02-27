@@ -14,6 +14,8 @@ export function Frameworks() {
     "microsoft",
     "react", 
     "tailwindcss",
+    "git",
+    "wordpress",
     
   ];
   return (

@@ -121,7 +121,18 @@ const About = () => {
               image="assets/logos/unity.svg"
                containerRef={grid2Container}
               
-            />
+            
+            /><Card
+              style={{ rotate: "-46deg", top: "6%", left: "85%" }}
+              image="assets/logos/wordpress.svg"
+               containerRef={grid2Container}
+              
+            /><Card
+            style={{ rotate: "-76deg", top: "8%", left: "45%" }}
+            image="assets/logos/git.svg"
+             containerRef={grid2Container}
+            
+          />
             
             
                 </div> </div>
