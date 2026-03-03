@@ -167,7 +167,7 @@ export const experiences = [
    
  {
   date: "2022 - 2023",
-  title: "Haute École / Institut ...",
+  title: "Haute École ICHEC",
   job: "Bachelier en Gestion d'Entreprise — 1ère année",
   contents: [
     "Découverte du monde du management et du marketing, des notions qui enrichissent aujourd'hui ma vision dans le développement de produits et d'interfaces.",
