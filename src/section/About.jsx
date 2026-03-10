@@ -28,7 +28,7 @@ const About = () => {
         {/* Grid 2 */}
         <div className="grid-default-color grid-2" >
             <div ref={grid2Container} className='flex items-center justify-center w-full h-full'>
-                <p className=" flex items-end text-5xl text-gray-500">  Code is craft </p>
+                <p className=" flex items-end text-5xl text-center text-gray-500"> Dessine-moi un siteweb </p>
                 <Card
               style={{ rotate: "75deg", top: "30%", left: "20%" }}
               text="Clean Code"
@@ -142,10 +142,10 @@ const About = () => {
   <div className="z-10 w-[50%]">
     <p className="headtext">Mon objectif</p>
     <p className="subtext">
-      Développeuse web junior basée à Bruxelles, je conçois des interfaces claires et intuitives
+      Développeuse web junior à Bruxelles, j’invente des interfaces simples à apprivoiser, comme une petite planète
     </p>
   </div>
-  <figure className="absolute left-[30%] top-[10%]">
+  <figure className="absolute left-[38%] top-[12%]">
     <Globe />
   </figure>
 </div>

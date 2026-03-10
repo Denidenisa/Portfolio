@@ -4,6 +4,7 @@ import Hero from './section/Hero'
 import About from "./section/About"
 import Projects from './section/projects'
 import Experiences from './section/Experiences'
+import Contact from './section/Contact'
 
 
 const App = () => {
@@ -14,8 +15,10 @@ const App = () => {
       <div id="about"><About /></div>
       <div id="work"><Projects /></div>
        <div id='experiences'><Experiences/></div>
+ 
+      <div id="contact"><Contact/>
       
-      <div id="contact"><section className="min-h-screen"/>
+      <section className="min-h-screen"/>
       </div>
      
     </div>
@@ -25,6 +28,6 @@ const App = () => {
 export default App
 
       { /*<Testimonial />*/ }
-      { /*<Contact />*/ }
+     
       { /*<Footer/>*/ }
           
