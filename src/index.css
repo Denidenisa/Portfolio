@@ -120,6 +120,10 @@ body {
 }
 .grid-constellation-color {
   @apply p-6 bg-gradient-to-b from-dusk to-twilight rounded-2xl;
+  
+}
+.grid-sunset-color {
+   @apply p-6 bg-gradient-to-b from-dusk to-fuchsia rounded-2xl;
 }
 
 .grid-special-color {

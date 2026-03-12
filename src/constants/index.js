@@ -7,9 +7,9 @@
       "Application web inspirée de l'univers du Petit Prince : un timer Pomodoro avec une liste de tâches. Après chaque session, une fleur pousse dans ton jardin.",
     subDescription: [
       "Développé un timer Pomodoro interactif permettant de gérer des sessions de travail.",
-      "Intégré une liste de tâches (todo list) liée aux sessions du timer.",
-      "Créé un jardin visuel dynamique où une nouvelle fleur pousse après chaque session complétée.",
-      "Conçu un univers graphique inspiré du Petit Prince avec CSS et animations JavaScript.",
+      "Intégration une liste de tâches (todo list) liée aux sessions du timer.",
+       "Imaginé et animé un jardin visuel où une nouvelle fleur pousse après chaque session complétée.",
+      "Crée un univers graphique inspiré du Petit Prince avec CSS et animations JavaScript.",
     ],
     href: "https://github.com/Denidenisa/workshop",
     logo: "",
@@ -187,21 +187,7 @@ export const experiences = [
 
 ];
 
-export const reviews = [
-  {
-    name: "Sonia",
-    username: "@sonia",
-    body: "idk.",
-    img: "",
-  },
-  {
-    name: "Aude",
-    username: "@Aude",
-    body: "idk",
-    img: "",
-  },
-  
-];
+
 
 export const mySocials = [
  

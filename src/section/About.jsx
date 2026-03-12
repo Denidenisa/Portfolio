@@ -138,7 +138,7 @@ const About = () => {
                 </div> </div>
 
         {/* Grid 3 */}
-        <div className="grid-black-color grid-3">
+       <div className="grid-sunset-color grid-3"> 
   <div className="z-10 w-[50%]">
     <p className="headtext">Mon objectif</p>
     <p className="subtext">
@@ -165,7 +165,7 @@ const About = () => {
             </div>
             
           </div>
-          <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
+         <div className="absolute inset-y-0 w-full h-full start-[33%] md:scale-150">
             <Frameworks />
           </div>
         </div>
