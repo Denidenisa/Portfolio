@@ -77,6 +77,7 @@ body {
   @apply mt-2 mb-2 text-xl;
 }
 
+
 .subtext {
   @apply text-neutral-400 text-sm md:text-base text-pretty;
 }
