@@ -41,7 +41,7 @@ const About = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.7 }}
       >
-        📖 L'Âme du Voyageur
+         L'Âme du Voyageur
       </motion.h2>
 
       {/* PARTIE 1 — Chapitres */}
