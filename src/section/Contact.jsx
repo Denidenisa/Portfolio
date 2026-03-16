@@ -1,6 +1,6 @@
 import { useState } from "react"
 import emailjs from "@emailjs/browser"
-import { AnimatePresence, motion } from "motion/react"
+import { AnimatePresence } from "motion/react"
 import Alert from "../components/Alert"
 import { Particles } from "../components/Particles"
 
@@ -62,28 +62,16 @@ const Contact = () => {
                 {showAlert && <Alert type={alertType} text={alertMessage} />}
             </AnimatePresence>
 
-            {/* Titre section */}
-            <motion.div
-                className="mb-12"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.7 }}
-            >
+         
+            <div className="mb-12">
                 <h2 className="text-heading">Envoyer un message d'astéroïde</h2>
                 <p className="mt-3 text-neutral-400 max-w-xl">
                     Que vous souhaitiez créer une nouvelle planète (un site), faire briller votre constellation actuelle ou donner vie à un projet singulier, je suis là pour vous accompagner.
                 </p>
-            </motion.div>
+            </div>
 
-            {/* Formulaire pleine largeur */}
-            <motion.form
-                className="w-full"
-                onSubmit={handleSubmit}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.7, delay: 0.2 }}
-            >
-                {/* Ligne 1 — Nom + Email côte à côte */}
+            <form className="w-full" onSubmit={handleSubmit}>
+                
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
                     <div>
                         <label htmlFor="name" className="field-label">Nom complet</label>
@@ -111,7 +99,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                {/* Ligne 2 — Message pleine largeur */}
+                
                 <div className="mb-8">
                     <label htmlFor="message" className="field-label">Message</label>
                     <textarea
@@ -124,7 +112,7 @@ const Contact = () => {
                     />
                 </div>
 
-                {/* Bouton + citation */}
+                
                 <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                     <p className="italic text-sm text-neutral-500 max-w-sm">
                         🌹 "On ne voit bien qu'avec le cœur."
@@ -137,9 +125,7 @@ const Contact = () => {
                         {isLoading ? "Envoi en cours..." : "Envoyer vers mon astéroïde 🚀"}
                     </button>
                 </div>
-            </motion.form>
-
-            
+            </form>
         </section>
     )
 }
