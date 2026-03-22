@@ -26,18 +26,18 @@ const Contact = () => {
         e.preventDefault()
         setIsLoading(true)
         try {
-            await emailjs.send(
-                "service_rzl8a4d",
-                "template_f52mx2p",
-                {
-                    from_name: formData.name,
-                    to_name: "Denisa",
-                    from_email: formData.email,
-                    to_email: "dev.furtunadenisa@gmail.com",
-                    message: formData.message,
-                },
-                "bSQVMtXUBmnx-uxR6"
-            )
+          await emailjs.send(
+    import.meta.env.VITE_EMAILJS_SERVICE_ID,
+    import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    {
+        from_name: formData.name,
+        to_name: "Denisa",
+        from_email: formData.email,
+        to_email: "dev.furtunadenisa@gmail.com",
+        message: formData.message,
+    },
+    import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+)
             showAlertMessage("success", "✨ Votre message vogue entre les étoiles vers mon astéroïde...")
             setFormData({ name: "", email: "", message: "" })
         } catch (error) {
