@@ -25,23 +25,23 @@ const HeroText=()=>{
                 </motion.p>
             </div>
         </div>
-        {/*Mobile View */}
-        <div className="flex flex-col space-y-6 md:hidden pl-4">
-            <motion.p className="text-5xl font-medium" variants={variants} initial="hidden" animate="visible" transition={{delay:1}}>
-                Hi, c'est Denisa
-            </motion.p>
-            <div>
-                <motion.p className="text-6xl font-black text-neutral-300" variants={variants} initial="hidden" animate="visible" transition={{delay:1.2}}>
-                    Motivée à 
-                </motion.p>
-                <motion.div variants={variants} initial="hidden" animate="visible" transition={{delay:1.5}}>
-                    <FlipWords words={words} className="font-bold text-white text-8xl"/>
-                </motion.div>
-                <motion.p className="text-5xl font-black text-neutral-300" variants={variants} initial="hidden" animate="visible" transition={{delay:1.8}}>
-                    le code
-                </motion.p>
-            </div>
-        </div>
+       {/*Mobile View */}
+<div className="flex flex-col space-y-6 md:hidden pl-4">
+    <motion.p className="text-3xl font-medium" variants={variants} initial="hidden" animate="visible" transition={{delay:1}}>
+        Hi, c'est Denisa
+    </motion.p>
+    <div>
+        <motion.p className="text-4xl font-black text-neutral-300" variants={variants} initial="hidden" animate="visible" transition={{delay:1.2}}>
+            Motivée à 
+        </motion.p>
+        <motion.div variants={variants} initial="hidden" animate="visible" transition={{delay:1.5}}>
+            <FlipWords words={words} className="font-bold text-white text-5xl"/>
+        </motion.div>
+        <motion.p className="text-4xl font-black text-neutral-300" variants={variants} initial="hidden" animate="visible" transition={{delay:1.8}}>
+            le code
+        </motion.p>
+    </div>
+</div>
     </div>
 }
 export default HeroText
