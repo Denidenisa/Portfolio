@@ -150,8 +150,11 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <p className="text-center headtext">Prêt à créer une étoile avec moi ?</p>
-          <CopyEmailButton />
+          <p className="text-center headtext"> Et si on visitait mon CV ?</p>
+<CopyEmailButton />
+<p className="text-sm text-neutral-400 mt-2">
+  CV réalisé en HTML & CSS
+</p>
         </motion.div>
 
         {/* Frameworks */}

@@ -3,7 +3,7 @@ import { motion } from "motion/react"
 import { mySocials } from "../constants"
  
 const citations = [
-  "On ne voit bien qu'avec le cœur. L'essentiel est invisible pour les yeux.",
+  "Carpe diem",
   "Tu deviens responsable pour toujours de ce que tu as apprivoisé.",
   "C'est le temps que tu as perdu pour ta rose qui fait ta rose si importante.",
   "Les adultes ne comprennent jamais rien tout seuls.",
@@ -30,7 +30,7 @@ const Footer = () => {
         transition={{ duration: 0.8 }}
       >
         🌹 "{randomCitation}"
-        <span className="block mt-1 not-italic text-neutral-600">— Le Petit Prince</span>
+       
       </motion.p>
  
      
