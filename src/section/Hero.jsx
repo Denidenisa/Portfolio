@@ -20,6 +20,7 @@ const Hero = () => {
                 style={{
                     background: 'linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.1) 100%)',
                     backdropFilter: 'blur(1px)',
+                    minHeight: '100vh'
                 }}
             />
 
