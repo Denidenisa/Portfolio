@@ -67,28 +67,28 @@
   },
   {
     id: 3,
-    title: "Stones Responsive – Univers Ghibli",
+    title: "BeeProductive",
     description:
-      "Site web inspiré du monde Studio Ghibli, centré sur l'apprentissage et la maîtrise du responsive design.",
+      "Application web de gestion de productivité avec système de tâches et authentification.",
     subDescription: [
-      "Conçu un site web thématique autour de l'univers Studio Ghibli avec des pierres magiques.",
-      "Mis l'accent sur l'apprentissage du responsive design et de l'adaptabilité multi-écrans.",
-      "Utilisé HTML et CSS pour créer une expérience visuelle immersive et cohérente.",
-      "Appliqué les bonnes pratiques d'accessibilité et d'expérience utilisateur.",
+     "Développé une application full-stack avec React (Vite) en frontend et Node.js/Express en backend.",
+  "Implémenté un système d'authentification JWT avec gestion des tokens via Jotai et localStorage.",
+  "Conçu une API REST avec Express et MongoDB/Mongoose pour la gestion des tâches et utilisateurs.",
+  
     ],
-    href: "https://github.com/Denidenisa/stones-responsive",
+    href: "https://github.com/Denidenisa/BeeProductive",
     logo: "",
-    image: "/assets/projects/stonesResponsive.jpg",
+    image: "/assets/projects/beeproductive.png",
     tags: [
       {
         id: 1,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
+        name: "NodeJs",
+        path: "/assets/logos/NodeJs.svg",
       },
       {
         id: 2,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 3,
