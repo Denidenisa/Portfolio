@@ -144,7 +144,7 @@
   "Géré l'authentification JWT et les routes protégées avec Jotai et React Router v7.",
 ],
 
-    href: "https://github.com/Denidenisa/calculatrice-calculator",
+    href: "https://github.com/Denidenisa/SoundOfYou",
     logo: "",
     image: "/assets/projects/soundofyou.png",
     tags: [
