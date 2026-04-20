@@ -95,6 +95,11 @@
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
       },
+      {
+        id:4 ,
+        name: "Tailwind",
+        path: "/assets/logos/tailwindcss.svg",
+      },
     ],
   },
   {
@@ -125,6 +130,53 @@
         id: 3,
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Sound Of You ",
+    description:
+      "App web thérapeutique appelée Sound of You . Les utilisateurs partagent des chansons liées à une émotion. Chaque émotion a une couleur thérapeutique qui change le fond de la page.",
+    subDescription: [
+  "Développé une application full-stack avec React, Node.js et MongoDB Atlas.",
+  "Intégré l'API Deezer pour la recherche de chansons et l'affichage des pochettes.",
+  "Géré l'authentification JWT et les routes protégées avec Jotai et React Router v7.",
+],
+
+    href: "https://github.com/Denidenisa/calculatrice-calculator",
+    logo: "",
+    image: "/assets/projects/soundofyou.png",
+    tags: [
+      {
+        id: 1,
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 2,
+        name: "CSS3",
+        path: "/assets/logos/css3.svg",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id:4 ,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 5,
+        name: "NodeJs",
+        path: "/assets/logos/NodeJs.svg",
+      },
+      {
+        id: 6,
+        name: "Tailwind",
+        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
