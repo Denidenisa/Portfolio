@@ -7,9 +7,9 @@
       "Application web inspirée de l'univers du Petit Prince : un timer Pomodoro avec une liste de tâches. Après chaque session, une fleur pousse dans ton jardin.",
     subDescription: [
       "Développé un timer Pomodoro interactif permettant de gérer des sessions de travail.",
-      "Intégré une liste de tâches (todo list) liée aux sessions du timer.",
-      "Créé un jardin visuel dynamique où une nouvelle fleur pousse après chaque session complétée.",
-      "Conçu un univers graphique inspiré du Petit Prince avec CSS et animations JavaScript.",
+      "Intégration une liste de tâches (todo list) liée aux sessions du timer.",
+       "Imaginé et animé un jardin visuel où une nouvelle fleur pousse après chaque session complétée.",
+      "Crée un univers graphique inspiré du Petit Prince avec CSS et animations JavaScript.",
     ],
     href: "https://github.com/Denidenisa/workshop",
     logo: "",
@@ -67,33 +67,38 @@
   },
   {
     id: 3,
-    title: "Stones Responsive – Univers Ghibli",
+    title: "BeeProductive",
     description:
-      "Site web inspiré du monde Studio Ghibli, centré sur l'apprentissage et la maîtrise du responsive design.",
+      "Application web de gestion de productivité avec système de tâches et authentification.",
     subDescription: [
-      "Conçu un site web thématique autour de l'univers Studio Ghibli avec des pierres magiques.",
-      "Mis l'accent sur l'apprentissage du responsive design et de l'adaptabilité multi-écrans.",
-      "Utilisé HTML et CSS pour créer une expérience visuelle immersive et cohérente.",
-      "Appliqué les bonnes pratiques d'accessibilité et d'expérience utilisateur.",
+     "Développé une application full-stack avec React (Vite) en frontend et Node.js/Express en backend.",
+  "Implémenté un système d'authentification JWT avec gestion des tokens via Jotai et localStorage.",
+  "Conçu une API REST avec Express et MongoDB/Mongoose pour la gestion des tâches et utilisateurs.",
+  
     ],
-    href: "https://github.com/Denidenisa/stones-responsive",
+    href: "https://github.com/Denidenisa/BeeProductive",
     logo: "",
-    image: "/assets/projects/stonesResponsive.jpg",
+    image: "/assets/projects/beeproductive.png",
     tags: [
       {
         id: 1,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
+        name: "NodeJs",
+        path: "/assets/logos/NodeJs.svg",
       },
       {
         id: 2,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 3,
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
+      },
+      {
+        id:4 ,
+        name: "Tailwind",
+        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
@@ -125,6 +130,53 @@
         id: 3,
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Sound Of You ",
+    description:
+      "App web thérapeutique appelée Sound of You . Les utilisateurs partagent des chansons liées à une émotion. Chaque émotion a une couleur thérapeutique qui change le fond de la page.",
+    subDescription: [
+  "Développé une application full-stack avec React, Node.js et MongoDB Atlas.",
+  "Intégré l'API Deezer pour la recherche de chansons et l'affichage des pochettes.",
+  "Géré l'authentification JWT et les routes protégées avec Jotai et React Router v7.",
+],
+
+    href: "https://github.com/Denidenisa/SoundOfYou",
+    logo: "",
+    image: "/assets/projects/soundofyou.png",
+    tags: [
+      {
+        id: 1,
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 2,
+        name: "CSS3",
+        path: "/assets/logos/css3.svg",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id:4 ,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 5,
+        name: "NodeJs",
+        path: "/assets/logos/NodeJs.svg",
+      },
+      {
+        id: 6,
+        name: "Tailwind",
+        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
@@ -187,21 +239,7 @@ export const experiences = [
 
 ];
 
-export const reviews = [
-  {
-    name: "Sonia",
-    username: "@sonia",
-    body: "idk.",
-    img: "",
-  },
-  {
-    name: "Aude",
-    username: "@Aude",
-    body: "idk",
-    img: "",
-  },
-  
-];
+
 
 export const mySocials = [
  

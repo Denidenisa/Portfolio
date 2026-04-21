@@ -77,6 +77,7 @@ body {
   @apply mt-2 mb-2 text-xl;
 }
 
+
 .subtext {
   @apply text-neutral-400 text-sm md:text-base text-pretty;
 }
@@ -91,7 +92,7 @@ body {
 }
 
 .nav-link {
-  @apply text-lg md:text-base hover:text-white transition-colors;
+  @apply text-xl md:text-lg hover:text-white transition-colors;
 }
 /* Button Components */
 .btn {
@@ -120,6 +121,10 @@ body {
 }
 .grid-constellation-color {
   @apply p-6 bg-gradient-to-b from-dusk to-twilight rounded-2xl;
+  
+}
+.grid-sunset-color {
+   @apply p-6 bg-gradient-to-b from-dusk to-fuchsia rounded-2xl;
 }
 
 .grid-special-color {

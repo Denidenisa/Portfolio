@@ -38,14 +38,14 @@ export function Astronaut(props) {
     ySpring.set(-1)
   }, [ySpring])
   return (
-    <group
-      ref={group}
-      {...props}
-      dispose={null}
-     rotation={[0, -0.1, 0.5]} /*rotation={[-Math.PI /2,Math.PI, 0]} ici le math.pi c est 180 */
-      scale={props.scale ||  0.3}
-      position={props.position || [1.3,-1,0]}
-    >
+  <group
+  ref={group}
+  {...props}
+  dispose={null}
+  rotation={[0, -0.6, 0.9]}  // [x, y, z] en radians
+  scale={props.scale || 0.3}
+  position={props.position || [1.3, -1, 0]}  // [x, y, z]
+>
       <group>
         <mesh
           castShadow
