@@ -72,7 +72,7 @@
       "Application web de gestion de productivité avec système de tâches et authentification.",
     subDescription: [
      "Développé une application full-stack avec React (Vite) en frontend et Node.js/Express en backend.",
-  "Implémenté un système d'authentification JWT avec gestion des tokens via Jotai et localStorage.",
+  "Implémenté un système d'authentification JWT.",
   "Conçu une API REST avec Express et MongoDB/Mongoose pour la gestion des tâches et utilisateurs.",
   
     ],
