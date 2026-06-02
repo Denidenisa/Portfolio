@@ -5,8 +5,8 @@ const CVButton = ({ lang, href, filename }) => {
     const [downloaded, setDownloaded] = useState(false)
 
     const labels = {
-        fr: { idle: 'Feuilleter mon CV', done: 'CV téléchargé !', flag: '🇫🇷' },
-        en: { idle: 'Browse my Resume', done: 'CV downloaded!', flag: '🇬🇧' },
+        fr: { idle: 'Feuilleter mon CV', done: 'CV téléchargé !' },
+        en: { idle: 'Browse my Resume', done: 'CV downloaded!' },
     }
 
     const downloadCV = () => {
