@@ -2,7 +2,7 @@
 
 > Portfolio personnel présentant mes projets,compétances et parcours en tant que [dévloppeuse front-end].
 
-🔗 **Live :** [furtunadenisa.vercel.app)
+🔗 **Live :** [https://furtunadenisa.vercel.app)
 
 ---
 
